@@ -43,5 +43,12 @@ const App = () => {
         <h2>Laps</h2>
         <section className='laps'>
           {laps.map((lapTime, index) => (
-            <p key={index}>{(lapTime / 1000).toFixed(2)}</
+            <p key={index}>{(lapTime / 1000).toFixed(2)}</p>
+          ))}
+        </section>
+      </section>
+    </div>
+  );
+};
 
+export default App;
